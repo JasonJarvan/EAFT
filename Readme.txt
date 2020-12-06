@@ -6,11 +6,12 @@ A movie comments classifier and predictor where criticisms and applause are clea
 You can use the GUI to classify the emotion and score of a comment to movie.
 
 2. Environment and Commands: 	
-Download Anaconda for python 3.7 which contains jupyter notebook pre-installed. Open jupyter notebook, create a new python3 note, and make sure you have installed nltk, or input the following code to download nltk packages:
+a.Download Anaconda for python 3.7 which contains jupyter notebook pre-installed. Open jupyter notebook, create a new python3 note, and make sure you have installed nltk, or input the following code to download nltk packages:
 	import nltk
 	nltk.download()
-Then the nltk's downloader will run. Download all the packages to the default filepath.
-Then you can put our program into the directory of your jupyter notebook's workspace (usually be your C:\Users\Your User) and see them in jupyter notebook. Run them with jupyter notebook.
+	Then the nltk's downloader will run. Download all the packages to the default filepath.
+b. Unzip EAFT\Demo\Score Classifier\aclImdb.zip into 'aclImdb' folder.
+c. Then you can put our program into the directory of your jupyter notebook's workspace (usually be your C:\Users\Your User) and see them in jupyter notebook. Run them with jupyter notebook.
 
 Hint: Anaconda includes all the packages we need, so install it and set it as your main python's interpreter is important.
 
