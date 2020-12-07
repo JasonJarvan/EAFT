@@ -23,7 +23,7 @@ Run Score Classifier Filter.ipynb and Emotion Classifier.ipynb in jupyter notebo
 b. How to run the GUI: 
 As you have anaconda correctly installed, simply open the CMD in the GUI's directory, and input the command: "python main.py", then you will see the GUI. You can use it to calculate how is the text being satisfied with the movie, which is the score from 0 to 10 (which are 'Reject','','Trash(0-2)','','Mediocre(2-4)','','Indifferent(4-6)','','Good(6-8)','','Masterwork(8-10)') , and the emotion out of 4 (which are 'Fierce','Sadness','Happiness','Reject').
 
-4. Directories
+4. Directories  
 ├──Readme.txt
 ├──Demo: The classifiers runned by jupyter notebook. These show the accuracy of our classifier.
 │   └──Emotion Classifier
