@@ -2,7 +2,8 @@ Emotion Analysier for Text (EAFT) :
 Authors: N17366337 Sheng Zhao, N12614619 Yuanzhe Liu, N18927927 Shuwei Zheng
 
 1. Introduction: 
-A movie comments classifier and predictor where criticisms and applause are clearly presented. This classifier has unique features, which can be used to predict the specific score of particular comments and to identify people's feelings and emotions. The accuracy is above 70% according to the tfscore.
+A movie comments classifier and predictor where criticisms and applause are clearly presented. This classifier has unique features, which can be used to predict the specific score of particular comments from 0 to 10 (which are 'Reject','','Trash(0-2)','','Mediocre(2-4)','','Indifferent(4-6)','','Good(6-8)','','Masterwork(8-10)') and to identify people's feelings and emotions out of 4 (which are 'Fierce','Sadness','Happiness','Reject'). The accuracy is above 70% according to the tfscore.
+We crawled 50000 comments from IMDB, and we manually cleaned and relabeled the. With high volume samples and accurate labels, our project reachs a high accuracy.
 You can use the GUI to classify the emotion and score of a comment to movie.
 
 2. Environment and Commands: 	
