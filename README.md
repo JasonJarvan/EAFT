@@ -14,7 +14,7 @@ We crawled 50000 comments from IMDB, and we manually cleaned and relabeled the. 
 
 You can use the GUI to classify the emotion and score of a comment to movie.
 
-![GUI]([https://github.com/JasonJarvan/EAFT/blob/master/Result%20Example/Result72PercentAccuracy.png](https://github.com/JasonJarvan/EAFT/blob/master/Result%20Example/GUI.png))
+![GUI](https://github.com/JasonJarvan/EAFT/blob/master/Result%20Example/GUI.png)
 
 ## 2. Environment and Commands: 	
 a.Download Anaconda for python 3.7 which contains jupyter notebook pre-installed. Open jupyter notebook, create a new python3 note, and make sure you have installed nltk, or input the following code to download nltk packages:
