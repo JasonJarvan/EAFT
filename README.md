@@ -1,6 +1,6 @@
 # EAFT
 Emotion Analysier for Text (EAFT) :
-Authors: Sheng Zhao, Yuanzhe Liu, Shuwei Zheng
+Authors: Sheng Zhao(Leader), Yuanzhe Liu, Shuwei Zheng
 
 1. Introduction: 
 A movie comments classifier and predictor where criticisms and applause are clearly presented. This classifier has unique features, which can be used to predict the specific score of particular comments from 0 to 10 (which are 'Reject','','Trash(0-2)','','Mediocre(2-4)','','Indifferent(4-6)','','Good(6-8)','','Masterwork(8-10)') and to identify people's feelings and emotions out of 4 (which are 'Fierce','Sadness','Happiness','Reject'). The accuracy is above 70% according to the tfscore.
