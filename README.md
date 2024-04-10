@@ -1,13 +1,13 @@
 # EAFT
 Emotion Analysier for Text (EAFT) :
-Authors: Sheng Zhao, Yuanzhe Liu, Shuwei Zheng
+Authors: Sheng Zhao(Leader), Yuanzhe Liu, Shuwei Zheng
 
-1. Introduction: 
+## 1. Introduction: 
 A movie comments classifier and predictor where criticisms and applause are clearly presented. This classifier has unique features, which can be used to predict the specific score of particular comments from 0 to 10 (which are 'Reject','','Trash(0-2)','','Mediocre(2-4)','','Indifferent(4-6)','','Good(6-8)','','Masterwork(8-10)') and to identify people's feelings and emotions out of 4 (which are 'Fierce','Sadness','Happiness','Reject'). The accuracy is above 70% according to the tfscore.
 We crawled 50000 comments from IMDB, and we manually cleaned and relabeled the. With high volume samples and accurate labels, our project reachs a high accuracy.
 You can use the GUI to classify the emotion and score of a comment to movie.
 
-2. Environment and Commands: 	
+## 2. Environment and Commands: 	
 a.Download Anaconda for python 3.7 which contains jupyter notebook pre-installed. Open jupyter notebook, create a new python3 note, and make sure you have installed nltk, or input the following code to download nltk packages:
 	import nltk
 	nltk.download()
@@ -18,14 +18,14 @@ c. Then you can put our program into the directory of your jupyter notebook's wo
 Hint: Anaconda includes all the packages we need, so install it and set it as your main python's interpreter is important.
 
 
-3. How to run EAFT: 
+## 3. How to run EAFT: 
 a. How to run the core classifier (model learner): 
 Run Score Classifier.ipynb and Emotion Classifier.ipynb in jupyter notebook. By doing this, you will see the tf scores of different algorithms.
 
 b. How to run the GUI: 
 As you have anaconda correctly installed, simply open the CMD in the GUI's directory, and input the command: "python main.py", then you will see the GUI. You can use it to calculate how is the text being satisfied with the movie, which is the score from 0 to 10 (which are 'Reject','','Trash(0-2)','','Mediocre(2-4)','','Indifferent(4-6)','','Good(6-8)','','Masterwork(8-10)') , and the emotion out of 4 (which are 'Fierce','Sadness','Happiness','Reject').
 
-4. Directories
+## 4. Directories
 ├──Readme.txt  
 ├──Demo: The classifiers runned by jupyter notebook. These show the accuracy of our classifier.  
 │   └──Emotion Classifier   
