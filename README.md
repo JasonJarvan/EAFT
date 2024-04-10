@@ -1,5 +1,5 @@
 # EAFT
-Emotion Analysier for Text (EAFT) :
+Emotion Analysier for Text (EAFT)
 Authors: Sheng Zhao(Leader), Yuanzhe Liu, Shuwei Zheng
 
 ## 1. Introduction: 
